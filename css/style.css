@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+
+}
+.navbar{
+  box-shadow: 1px 1px 5px  #e4e3e3;
+}
+.logo,.logo:hover{
+  font-size: 30px!important;
+  font-family: 'Kaushan Script', cursive;
+  color: #ff2e85!important;
+}
+.nav-link{
+  color:black!important;
+}
+.nav-link:hover{
+  color: #ff75af!important;
+}
+.navbar-toggler{
+  border:none!important;
+  outline: none!important;
+  font-size: 30px!important;
+}
+.navbar .navbar-nav .nav-link.active{
+  color:#ff2e85!important; 
+
+}
+#home{
+  padding-top:20px!important;
+
+}
+#about,#skills,#contact,#work{
+  padding-top: 100px!important;
+}
+.social-media li,.foot-icon li{
+
+ list-style: none!important;
+}
+.social-media ,.foot-icon i{
+
+  font-size: 36px!important;
+}
+.fa-dribbble::after{
+  content:'';
+  position:absolute;
+  width: 5px;
+  height: 200px;
+  border-radius: 10px;
+  background-color:#ff2e85!important;
+  transform: translate(-500%,35%);
+}
+.theme-text{
+  color:#ff2e85!important;
+
+}
+#person-img{
+  background-image: url("../image/DARKA.jfif");
+  background-repeat: no-repeat;
+  width:50%!important;
+  height: 408px!important;
+ 
+  
+}
+
+.title{
+  text-align: center;
+
+}
+.title h1{
+  font-family:'Kaushan Script',cursive!important;
+  letter-spacing:3px;
+  text-transform: capitalize;
+}
+p{
+  font-size: 20px;
+}
+.border{
+  border-radius: 10px;
+}
+.progress-con{
+border-radius: 10px;
+box-shadow: 1px 1px 5px gray;
+}
+.progress{
+  height: 10px!important;
+}
+.progress-bar{
+ background-color: #ff2e85!important;
+}
+#active{
+  color: #ff2e85!important;
+}
+.work-info li{
+cursor: pointer;
+}
+.work-info i{
+  font-size: 50px;
+  color: #ff2e85!important;
+
+}
+.form-control:focus{
+color: #495057;
+background-color: #fff;
+border-color: #ff74ae!important;
+outline: none;
+box-shadow: 0 0 0 0.2rem rgba(255,46,133,0.25)!important;
+}
+.foot-icon i,.copyright{
+  color: white!important;
+}
